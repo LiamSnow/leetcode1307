@@ -32,6 +32,7 @@ test({ words: ["SEND","MORE"], result: "MONEY" }) = true;
 ```
 
 | &nbsp; | &nbsp; |
+| - | - |
 | S | 9 |
 | E | 5 |
 | N | 6 |
@@ -52,6 +53,7 @@ test({words: ["SIX","SEVEN","SEVEN"], result: "TWENTY"}) = true;
 ```
 
 | &nbsp; | &nbsp; |
+| - | - |
 | S | 6 |
 | I | 5 |
 | X | 0 |
