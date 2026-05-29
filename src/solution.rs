@@ -126,9 +126,7 @@ impl Equation {
             return self.is_solved();
         };
 
-        let start = if self.term(side, idx).zeroable { 0 } else { 1 };
-
-        for digit in start..=9 {
+        for digit in self.term(side, idx).floor()..=9 {
             if set.is_taken(digit) {
                 continue;
             }
