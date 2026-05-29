@@ -15,10 +15,9 @@ Find if it's solvable, where:
 
 ## Constraints
 1. 2-5 words (`2 <= words.length <= 5`)
-2. At least one word (`words[i].length >= 1`)
-3. `result` is 7 or less characters (`result.length <= 7`)
-4. Only uppercase English letters
-5. The number of different characters used in the expression is at most 10
+2. Word and result is 1-7 chars (`1 <= words[i].length, result.length <= 7`) 
+3. Only uppercase English letters
+4. The number of different characters used in the expression is at most 10
 
 ## Examples
 
