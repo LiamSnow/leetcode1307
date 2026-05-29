@@ -20,7 +20,9 @@ Find if it's solvable, where:
 4. Only uppercase English letters
 5. The number of different characters used in the expression is at most 10
 
-## Example 1
+## Examples
+
+### Example 1
 
 ```js
 test({ words: ["SEND","MORE"], result: "MONEY" }) = true;
@@ -35,7 +37,7 @@ test({ words: ["SEND","MORE"], result: "MONEY" }) = true;
 | - | - | - | - | - | - | - | - |
 | 9 | 5 | 6 | 7 | 1 | 0 | 8 | 2 |
 
-## Example 2
+### Example 2
 ```js
 test({words: ["SIX","SEVEN","SEVEN"], result: "TWENTY"}) = true;
 ```
@@ -49,7 +51,7 @@ test({words: ["SIX","SEVEN","SEVEN"], result: "TWENTY"}) = true;
 | - | - | - | - | - | - | - | - | - |
 | 6 | 5 | 0 | 8 | 7 | 2 | 1 | 3 | 4 | 
 
-## Example 3
+### Example 3
 
 ```js
 test({words: ["LEET","CODE"], result: "POINT"}) = false;
@@ -57,6 +59,3 @@ test({words: ["LEET","CODE"], result: "POINT"}) = false;
 
 There is no possible mapping to satisfy the equation, so we return false.
  - Note: Two different characters cannot map to the same digit.
-
-
-
